@@ -8,7 +8,9 @@
   "build:client": "vite build",
   "build:server": "vite build --ssr src/entry-server.tsx --outDir dist/server",
   "build:prerender": "node prerender",
-},
+  // ... keep other existing scripts
+}
+
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-accordion": "^1.2.0",
