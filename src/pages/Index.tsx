@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Calculator from "@/components/Calculator";
@@ -10,9 +11,11 @@ const Index = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary to-primary/80 py-16 md:py-24">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Tax-Free Childcare Calculator UK
-            </h1>
+            <a href="https://taxfreechildcarecalculator.net/" rel="dofollow">
+              <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Tax-Free Childcare Calculator UK
+              </h1>
+            </a>
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
               Calculate how much you can save on childcare costs with the UK government's 
               Tax-Free Childcare scheme.
