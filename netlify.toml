@@ -6,6 +6,7 @@
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  from = "https://taxfreechildcarecalculator.netlify.app/*"
+  to = "https://taxfreechildcarecalculator.net/:splat"
+  status = 301
+  force = true
